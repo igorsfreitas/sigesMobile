@@ -1,0 +1,17 @@
+<ion-header style="posi">
+  <ion-navbar color="primary" hideBackButton>
+    <ion-title>Usuário</ion-title>
+    <ion-buttons end="" class="bar-buttons bar-buttons-ios">
+      <button icon-only="" ion-button="" class="disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios" style="transition: none;"><span class="button-inner">
+        <ion-icon name="more" role="img" class="icon icon-ios ion-ios-more" aria-label="more" ng-reflect-name="more"></ion-icon>
+      </span><div class="button-effect"></div></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-tabs>
+  <ion-tab [root]="tab1Root" tabTitle="Início" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="Mensagens" tabIcon="mail"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="Serviços" tabIcon="apps"></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="Ajustes" tabIcon="cog"></ion-tab>
+</ion-tabs>
